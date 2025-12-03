@@ -1,0 +1,4 @@
+{
+    "user_input": "takes the master password from the user",
+    "traverse": "goes through each character in the {string},splits them and turns it into ascii value"
+}

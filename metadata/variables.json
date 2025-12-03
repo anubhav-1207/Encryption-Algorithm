@@ -1,0 +1,6 @@
+{
+    "string" : "stores the user's master password",
+    "site" : "stores the user's site to-be logged in",
+    "strlist" : "splits the {string} into individual characters",
+    "ordchar": "stores the ordinal value of a character obtained by traversing {strlist}"
+}
