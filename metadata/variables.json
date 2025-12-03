@@ -1,6 +1,15 @@
 {
     "string" : "stores the user's master password",
+    
     "site" : "stores the user's site to-be logged in",
+    
     "strlist" : "splits the {string} into individual characters",
-    "ordchar": "stores the ordinal value of a character obtained by traversing {strlist}"
+    
+    "ordchar": "stores the ordinal value of a character obtained by traversing {strlist}",
+    
+    "keylist": "stores the generated keys from keygen",
+
+    "site": "stores the website domain name the user is logging into",
+
+    "sitel":"stores the individual characters of site into a list"
 }
