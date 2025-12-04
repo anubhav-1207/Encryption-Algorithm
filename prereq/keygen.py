@@ -24,7 +24,7 @@ def keygen(strlist,keylist):
         ordch = math.floor(ordch)
         
         keylist.append(ordch)
-        
+    
     return keylist
 
 
