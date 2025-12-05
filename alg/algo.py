@@ -13,12 +13,23 @@ def algorithm(seqlist,site,sitel):
             ordch **= 1
             ordch -= 2341
             ordch *= 126
-            ordch /= 12
-            ordch += 2837556
+            ordch += 28375
+            ordch -= 23
+            ordch *= 12
+            ordch ^= 34
+            ordch >>= 8253
+            ordch += 752
+            ordch += 234234
+            ordch += 7372
+            ordch *= 143
+            
+            
+            ordch %= 1234
         
-        ordch %= 123
-        # ordch = math.floor(ordch)
+        ordch = math.floor(ordch)
         print(ordch)
+
+
             
             
 
