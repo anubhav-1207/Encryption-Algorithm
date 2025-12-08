@@ -1,7 +1,0 @@
-{
-    "user_input": "takes the master password from the user",
-    
-    "traverse": "goes through each character in the {string},splits them and turns it into ascii value",
-    
-    "sequence":"Gets rid of duplicity and pattern by using the following algortithm -> 'keylist[i+1]+keylist[i]*keylist[i]+(keylist[i])*2'"
-}
