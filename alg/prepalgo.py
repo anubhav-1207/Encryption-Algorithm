@@ -7,7 +7,7 @@ def diffusion (seqlist,site,sitel,primechl):
         sitel.append(char)
         
     for ordch in sitel:
-        for i in range(92352):
+        for i in range(1):
             ordch += 984376
             ordch *= 7445
             ordch -= 231414
@@ -28,24 +28,6 @@ def diffusion (seqlist,site,sitel,primechl):
         primech = primegen(ordch)
         ordch *= primech # primech is the ordch-th prime number
         primechl.append(ordch) # primechl is the list containing ordch*primech
-    
+    print(primechl)
     return primechl
 
-def diff_seq(primechl):
-    primechl.sort()
-    for i in range(0,len(primechl)-1):
-        for elem in primechl:
-            primechl[i] += primechl[i+1]
-
-    return primechl
-
-def diff_seqchr(diff_sequence,diff_key):
-    for elem in diff_sequence:
-        for i in range(1719):
-            elem = (elem%80000)+33
-            elem *= primegen(elem%300)
-            elem *= primegen(elem%817)
-        
-        diff_key.append(elem)
-    print(diff_key)
-    return diff_key

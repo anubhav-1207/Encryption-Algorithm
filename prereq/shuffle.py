@@ -8,5 +8,6 @@ def sequence(keylist):
     return keylist
 
 def seqmix(keylist):
-    for elem in keylist:
-        elem *= primegen(elem)
+    # for elem in keylist:
+        # elem *= primegen(elem)  
+    return keylist
